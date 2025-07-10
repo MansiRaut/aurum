@@ -1,5 +1,6 @@
 import { brandStory } from "@/media";
 import SectionHeading from "../atoms/SectionHeading";
+import Image from "next/image";
 
 export default function BrandStories() {
   return (
@@ -24,7 +25,7 @@ export default function BrandStories() {
 
           {/* Right: Image */}
           <div>
-            <img
+            <Image
               src={brandStory.src}
               alt="Brand Story"
               className="w-full h-auto rounded-lg shadow-md"

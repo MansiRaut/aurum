@@ -1,4 +1,5 @@
 import { lounge } from "@/media";
+import Image from "next/image";
 
 export default function DigitalLounge() {
     return (
@@ -11,7 +12,7 @@ export default function DigitalLounge() {
                     Explore resources, conversations, and upcoming events designed to grow your entrepreneurial journey.
                 </p>
                 <div>
-                    <img
+                    <Image
                         src={lounge.src}
                         alt="Brand Story"
                         className="w-full h-auto"

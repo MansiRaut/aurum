@@ -1,6 +1,7 @@
 "use client";
 import Slider from "react-slick";
 import SectionHeading from "@/components/atoms/SectionHeading";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -50,7 +51,7 @@ export default function Testimonials() {
             <div key={idx} className="px-4">
               <div className="flex flex-col items-center">
                 {/* Profile Picture */}
-                <img
+                <Image
                   src={t.image}
                   alt={t.name}
                   className="w-20 h-20 rounded-full object-cover mb-6 border-4 border-white shadow-md"
