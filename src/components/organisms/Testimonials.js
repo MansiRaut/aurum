@@ -51,11 +51,15 @@ export default function Testimonials() {
             <div key={idx} className="px-4">
               <div className="flex flex-col items-center">
                 {/* Profile Picture */}
-                <Image
-                  src={t.image}
-                  alt={t.name}
-                  className="w-20 h-20 rounded-full object-cover mb-6 border-4 border-white shadow-md"
-                />
+                <div className="relative w-20 h-20 mb-6">
+                  <Image
+                    src={t.image}
+                    alt={t.name}
+                    fill
+                    className="rounded-full object-cover border-4 border-white shadow-md"
+                  />
+                </div>
+
 
                 {/* Quote */}
                 <p className="text-xl italic text-gray-800 mb-4 max-w-xl">“{t.quote}”</p>

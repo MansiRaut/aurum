@@ -11,13 +11,16 @@ export default function DigitalLounge() {
                 <p className="text-md md:text-lg mb-8 text-yellow-600">
                     Explore resources, conversations, and upcoming events designed to grow your entrepreneurial journey.
                 </p>
-                <div>
+                <div className="relative w-full h-64 md:h-96 mt-6 rounded-lg overflow-hidden">
                     <Image
                         src={lounge.src}
-                        alt="Brand Story"
-                        className="w-full h-auto"
+                        alt="Digital Lounge"
+                        fill
+                        className="object-cover"
+                        priority
                     />
                 </div>
+
             </div>
         </section>
     );

@@ -24,13 +24,15 @@ export default function BrandStories() {
           </div>
 
           {/* Right: Image */}
-          <div>
+          <div className="relative w-full h-72 md:h-96 rounded-lg shadow-md overflow-hidden">
             <Image
               src={brandStory.src}
               alt="Brand Story"
-              className="w-full h-auto rounded-lg shadow-md"
+              fill
+              className="object-cover"
             />
           </div>
+
         </div>
       </div>
     </section>
