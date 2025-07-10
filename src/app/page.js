@@ -3,7 +3,7 @@ import BrandStories from "@/components/organisms/BrandStories";
 import CTASection from "@/components/organisms/CTASection";
 import DigitalLounge from "@/components/organisms/DigitalLounge";
 import FAQSection from "@/components/organisms/FAQSection";
-import Footer from "@/components/organisms/Footer";
+import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/organisms/HeroSection";
 import HowItWorks from "@/components/organisms/HowItWorks";
 import MembershipPlans from "@/components/organisms/MembershipPlans";
