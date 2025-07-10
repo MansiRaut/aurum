@@ -43,7 +43,7 @@ export default function Testimonials() {
           What Our Members Say
         </h2>
         <p className="text-sm text-gray-600 mt-2 mb-10">
-          Genuine voices from founders who’ve grown through the Aurum network.
+          Genuine voices from founders who&rsquo;ve grown through the Aurum network.
         </p>
 
         <Slider {...settings}>

@@ -12,7 +12,7 @@ export default function BrandStories() {
             <SectionHeading className="text-left mb-6">Brand Stories</SectionHeading>
 
             <p className="text-gray-700 text-lg mb-6">
-              Our members don't just join a network—they enter a space designed
+              Our members don&rsquo;t just join a network—they enter a space designed
               to accelerate growth, foster collaborations, and share real
               impact. Explore stories that highlight how strategic connections
               turn visions into ventures.
