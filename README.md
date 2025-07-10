@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aurum Connect UI – Responsive Design Recreation
 
-## Getting Started
+## 🔍 Approach
 
-First, run the development server:
+The goal was to recreate the provided UI design as closely as possible using **React** and **Next.js**, following a clean, component-driven approach based on **Atomic Design principles**. Each section of the homepage was broken down into reusable components (atoms, molecules, organisms), styled with **Tailwind CSS** for rapid and responsive development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Tools & Libraries Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 15** – App Router, optimized build
+- **React 19** – Component-based architecture
+- **Tailwind CSS** – Utility-first styling
+- **Lucide React** – Lightweight icon set
+- **React Slick** – Carousel for testimonials
+- **React Google Charts** – Activity line graph
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚧 Challenges Faced
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Ensuring **pixel-perfect matching** with the original design on both desktop and mobile views
+- Handling **layout inconsistencies** like borders in responsive grids
+- Mimicking specific UI behaviors (e.g., hover state on cards, button transitions, sticky transparent header)
+- Matching **carousel styling and behavior** exactly as in the mockup without a UI framework
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ The final result is a clean, scalable, and fully responsive web UI implementation, suitable for real-world use or portfolio projects.
